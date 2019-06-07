@@ -33,7 +33,7 @@ body {
 
 .welcome h1 strong {
     font-weight: 700;
-    color: #38a9b4;
+    color: #eb3737;
 }
 
 .welcome h2 {
@@ -46,7 +46,7 @@ body {
 .welcome h3 {
     text-transform: uppercase;
     font-weight: 500;
-    color: #38a9b4;
+    color: #eb3737;
     font-size: 16px;
     margin: 0 0 5px;
     display: block;
@@ -55,8 +55,9 @@ body {
 /***** TOP *****/
 
 .welcome__top {
-    background-color: #67cece;
+    background-color: #eb3737;
     padding-bottom: 40px;
+    margin-bottom: 90px;
 }
 
 .welcome__flag {
@@ -123,11 +124,12 @@ body {
     padding: 30px;
     text-align: left;
     flex: auto;
+
 }
 .other__bloc {
     display: inline-flex;
     align-items: center;
-    border: 4px solid #afe5e5;
+    border: 4px solid #ff4f4fd5;
     padding: 10px 20px;
     margin: 10px 0;
     height: 170px;
@@ -147,7 +149,7 @@ body {
 .other__circle {
     width: 110px;
     height: 110px;
-    background-color: #afe5e5;
+    background-color: #ff4f4fd5;
     border-radius: 50%;
     margin-right:20px;
 }
@@ -204,16 +206,16 @@ a.other__button {
 }
 
 .other__button:hover {
-    background-color: #afe5e5;
-    color: #339ba5;
+    background-color: #eb3737;
+    color: #eb3737;
 }
 
 .main__button {
     display: inline-block;
     padding: 10px 50px 10px 10px;
-    border: 3px solid #339ba5;
+    border: 3px solid #eb3737;
     font-size: 22px;
-    color: #339ba5;
+    color: #eb3737;
     text-transform: uppercase;
     margin: 15px 0;
     overflow: hidden;
@@ -277,7 +279,7 @@ a.other__button {
 }
 
 .help__circle:hover {
-    border-color: #67cece;
+    border-color: #eb3737;
     background-color: #afe5e5;
 }
 
@@ -309,4 +311,46 @@ a.other__button {
     .main__content {
         padding: 10px;
     }
+}
+.cptmarvel{
+    height: 98px;
+    padding-top: 7px;
+    padding-left: 13px;
+}
+.vision{
+    padding-top: 7px;
+    padding-left: 3px;
+    height: 98px;
+}
+.container {
+    display: flex; 
+    text-align: center;
+  
+  }
+.liste {
+    text-align: center;
+    
+}
+.listee {
+    height: 28px;
+    width: 300px;
+}
+
+.welcome__img {
+    display: block;
+    text-align: center;
+}
+.marvel {
+    padding-bottom: 20px;  
+    padding-top: 20px;  
+}
+.all{
+    position: relative;
+    height: 270px;
+}
+.buttonDev {
+    margin-left: 20px;
+}
+.logoHome{
+    height: 100px;
 }

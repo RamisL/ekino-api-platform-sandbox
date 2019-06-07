@@ -4,6 +4,7 @@ help:
 	@echo "Please use \`make <target>' where <target> is one of"
 	@echo "  infra-up       to start docker"
 	@echo "  infra-shell-php-fpm    to start container php"
+	@echo "  infra-shell-client    to start container php"
 
 
 infra-up:
@@ -11,4 +12,7 @@ infra-up:
 
 infra-shell-php-fpm:
 	docker-compose exec -u www-data php sh
+
+infra-shell-client:
+	docker-compose exec client sh
 

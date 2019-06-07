@@ -12,6 +12,8 @@ use Doctrine\ORM\Mapping as ORM;
  * This is a dummy entity. Remove it!
  *
  * @ApiResource(
+ *     collectionOperations={"get"},
+ *     itemOperations={"get"}
  * )
  * @ORM\Entity
  * @ORM\HasLifecycleCallbacks

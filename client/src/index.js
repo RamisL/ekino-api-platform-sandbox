@@ -4,7 +4,7 @@ import { createStore, combineReducers, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import { reducer as form } from 'redux-form';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch} from 'react-router-dom';
 import createBrowserHistory from 'history/createBrowserHistory';
 import {
   ConnectedRouter,
@@ -16,6 +16,7 @@ import 'font-awesome/css/font-awesome.css';
 import * as serviceWorker from './serviceWorker';
 // Import your reducers and routes here
 import Welcome from './Welcome';
+import Detail from './Detail';
 
 const history = createBrowserHistory();
 const store = createStore(
@@ -32,7 +33,7 @@ ReactDOM.render(
     <ConnectedRouter history={history}>
       <Switch>
         <Route path="/" component={Welcome} strict={true} exact={true}/>
-        {/* Add your routes here */}
+        <Route path="/detail/:detailId" component={Detail} strict={true} exact={true} />
         <Route render={() => <h1>Not Found</h1>} />
       </Switch>
     </ConnectedRouter>
