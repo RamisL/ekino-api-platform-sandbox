@@ -12,6 +12,8 @@ use Doctrine\ORM\Mapping as ORM;
  *
  * @ORM\HasLifecycleCallbacks
  * @ApiResource(
+ *     collectionOperations={"get"},
+ *     itemOperations={"get"}
  * )
  * @ORM\Entity
  */
